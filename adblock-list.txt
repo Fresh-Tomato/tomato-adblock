@@ -9,7 +9,6 @@ https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 http://someonewhocares.org/hosts/zero/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt Windows 10
 http://sysctl.org/cameleon/hosts
-http://adblock.gjtech.net/?format=hostfile
 http://hostsfile.mine.nu/Hosts very large list
 # TEST comment
 https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
