@@ -15,6 +15,9 @@ adblock_bad_file_path="${root_dir}/${adblock_bad_file}"
 adblock_tmp_file='adblock-tmp.txt'
 adblock_tmp_file_path="${root_dir}/${adblock_tmp_file}"
 
+# CREATE tmp file
+touch "${adblock_tmp_file_path}"
+
 i=0
 
 while read line || [ -n "$line" ]; do
@@ -40,7 +43,7 @@ while read line || [ -n "$line" ]; do
     fi
 
     # echo "list_url: ${list_url}"
-    echo "${list_url}"
+    echo "Checking... ${list_url}"
 
     http_code=$(curl -IL --silent $list_url | grep HTTP | tail -n 1 | cut -f 2 -d " ")
 
